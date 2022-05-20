@@ -27,5 +27,8 @@ let primeiroFilhoDoFilho = document.getElementById("primeiroFilhoDoFilho");
 
 
 //A partir desse filho criado, acesse terceiroFilho.
-    let terceiroFilho = document.getElementById
-
+const terceiroFilho = filhoPrimeiroFilhoDoFilho
+       parentElement // primeiroFilhoDoFilho
+       parentElement // elementoOndeVoceEsta
+       nextElementSibling; // terceiroFilho
+    console.log(terceiroFilho);
