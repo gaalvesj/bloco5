@@ -36,19 +36,23 @@
 
 //Adicione a tag h1 com o texto Exercício 5.2 - JavaScript DOM como filho da tag body;
 let elementoH1 = document.createElement("h1");
-elementoH1.innerText = "Exercício 5.2 - JavaScript DOM";
-document.body.appendChild(elementoH1);
+    elementoH1.innerText = "Exercício 5.2 - JavaScript DOM";
+    document.body.appendChild(elementoH1);
 
 //Adicione a tag main com a classe main-content como filho da tag body;
 let elementoMain = document.createElement("main");
-elementoMain.className = 'main-content';
-document.body.appendChild(elementoMain);
+    elementoMain.className = 'main-content';
+    document.body.appendChild(elementoMain);
 //Adicione a tag section com a classe center-content como filho da tag main criada no passo 2;
 let elementoSectionCenter = document.createElement("section");
-elementoSectionCenter.className = 'center-content';
-elementoMain.appendChild(elementoSectionCenter);
+    elementoSectionCenter.className = 'center-content';
+    elementoMain.appendChild(elementoSectionCenter);
 
 //Adicione a tag p como filho do section criado no passo 3 e coloque algum texto;
+let elementoP1 = document.createElement("p");
+    elementoSectionCenter.appendChild(elementoP1);
+    elementoP1.innerText = 'Primeiro paragrafo da pagina!!'
+
 //Adicione a tag section com a classe left-content como filho da tag main criada no passo 2;
 //Adicione a tag section com a classe right-content como filho da tag main criada no passo 2;
 //Adicione uma imagem com src configurado para o valor https://picsum.photos/200 e classe small-image. Esse elemento deve ser filho do section criado no passo 5;
