@@ -5,10 +5,10 @@
 
 // E a prática? Aqui!
 //Crie um irmão para elementoOndeVoceEsta.
-//  let brotherelementoOndeVoceEsta = document.getElementById("elementoOndeVoceEsta");
-//  brotherelementoOndeVoceEsta = document.parentElement("section");
-//  brotherelementoOndeVoceEsta.id = 'brotherelementoOndeVoceEsta';
-//  elementoOndeVoceEsta.appendChild("brotherelementoOndeVoceEsta");
+ let brotherelementoOndeVoceEsta = document.getElementById("elementoOndeVoceEsta");
+ brotherelementoOndeVoceEsta = document.parentElement("section");
+ brotherelementoOndeVoceEsta.id = 'brotherelementoOndeVoceEsta';
+ elementoOndeVoceEsta.appendChild("brotherelementoOndeVoceEsta");
 
 
 //Crie um filho para elementoOndeVoceEsta.
